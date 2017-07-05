@@ -9,4 +9,4 @@ Container copying files when a cURL occured.
 
 ## Run
 
-    docker run -d --name curlpy lolemetayer/curlpy
+    docker run -d --name curlpy -p 9500:80 lolemetayer/curlpy
